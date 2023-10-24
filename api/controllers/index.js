@@ -6,7 +6,7 @@ const logger = require('../../utils/log');
 router.get('/status', (req, res) => {
     res.status(200).send({
         status: 200,
-        message: 'OK'
+        message: 'Status OK'
     });
 });
 

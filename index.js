@@ -8,7 +8,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(bodyParser.text());
 
-app.get('/statusCheck', (req, res) => {
+app.get('/', (req, res) => {
     res.status(200).send({
         status: 200,
         message: 'OK'
