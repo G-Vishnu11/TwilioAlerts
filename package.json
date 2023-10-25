@@ -8,6 +8,7 @@
   },
   "scripts": {
     "start": "node index.js",
+    "dev": "netlify dev",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -20,5 +21,8 @@
     "lodash": "^4.17.21",
     "twilio": "^4.19.0",
     "winston": "^3.11.0"
+  },
+  "devDependencies": {
+    "netlify-cli": "^2.68.7"
   }
 }
